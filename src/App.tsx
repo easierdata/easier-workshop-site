@@ -7,6 +7,7 @@ import Location from './pages/location/location';
 import Sponsors from './pages/sponsors/sponsors';
 import Speakers from './pages/speakers/speakers';
 import Itinerary from './pages/itinerary/itinerary';
+import FAQ from './pages/faq/faq';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Speakers />
       <Itinerary />
       <Location />
+      <FAQ />
     </div>
   );
 }

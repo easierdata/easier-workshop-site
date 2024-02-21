@@ -31,5 +31,23 @@ export const speakers = [
 ]
 
 // FAQ Content
+export const FAQContent = [
+    {
+        "question": "Question 1",
+        "answer": "Answer"
+    },
+    {
+        "question": "Question 2",
+        "answer": "Answer"
+    },
+    {
+        "question": "Question 3",
+        "answer": "Answer"
+    },
+    {
+        "question": "Question 4",
+        "answer": "Answer"
+    },
+]
 
 // Footer

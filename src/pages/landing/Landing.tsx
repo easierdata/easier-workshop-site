@@ -1,6 +1,6 @@
 import React from "react";
 import { LandingContent } from "../../static/content";
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logos/logo.png';
 
 export default function Landing(): JSX.Element {
     return (

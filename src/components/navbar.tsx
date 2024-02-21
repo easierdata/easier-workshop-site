@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { faChevronCircleUp, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../assets/logo.png'
+import logo from '../assets/logos/logo.png'
 
 export default function Navbar(): JSX.Element {
     const [visible, setVisible] = useState(false);

@@ -3,6 +3,11 @@
         display: flex;
         margin-top: 18px;
     }
+
+    .logos img {
+        width: auto;
+        height: 100px;
+    }
 }
 
 .logos img {
