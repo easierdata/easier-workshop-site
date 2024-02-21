@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
-import styles from './attendees.module.css';
+import styles from './sponsors.module.css';
 
-export default function Attendees(): JSX.Element {
+export default function Sponsors(): JSX.Element {
     return (
         <div className="w-full mt-24 text-center">
             <h1 className='text-2xl font-bold'>With support from</h1>
