@@ -6,10 +6,10 @@ export default function Landing(): JSX.Element {
     return (
         <div className="h-full grid md:grid-cols-2 ml-14 mr-14 md:ml-20 md:mr-20">
             <div className="mt-20">
-                <h1 className="font-bold text-5xl">{LandingContent.heading}</h1>
-                <h2 className="mt-3 font-bold text-2xl">{LandingContent.subheading}</h2>
-                <hr className="mt-3 mb-4"/>
-                <p>{LandingContent.description}</p>
+                <h1 className="font-bold text-6xl">{LandingContent.heading}</h1>
+                <h2 className="mt-4 font-bold text-3xl">{LandingContent.subheading}</h2>
+                <hr className="mt-4 mb-4"/>
+                <p className="text-lg mb-4">{LandingContent.description}</p>
 
                 <div className="sm:grid sm:grid-rows-2 md:invisible md:h-0">
                     <button

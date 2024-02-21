@@ -3,19 +3,26 @@ import RR from '../../assets/RR.jpg';
 
 export default function About(): JSX.Element {
     return (
-        <div className="border mx-6 md:mx-12 rounded-lg border-black mt-24 grid md:grid-cols-2">
-            <div>
-                <h1 className='text-2xl font-bold text-center mt-3'>About</h1>
-                <div className="p-4">
-                    <p>{AboutContent.paragraph}</p>
+        <div
+            style={{
+                background: `linear-gradient(0deg, #039876, #fff)`
+            }}
+            className="py-6 mt-24"
+        >
+            <div className="border pt-6 bg-white mx-6 md:mx-12 rounded-lg border-black grid md:grid-cols-2">
+                <div>
+                    <h1 className='text-4xl font-bold text-center mt-3'>About</h1>
+                    <div className="p-4 text-lg">
+                        <p>{AboutContent.paragraph}</p>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img 
-                    src={RR} 
-                    alt="River Road" 
-                    className='w-auto p-3'
-                />
+                <div>
+                    <img 
+                        src={RR} 
+                        alt="River Road" 
+                        className='w-auto p-3'
+                    />
+                </div>
             </div>
         </div>
     )
