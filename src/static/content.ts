@@ -30,8 +30,6 @@ export const speakers = [
     }
 ]
 
-// Itenerary Content
-
 // FAQ Content
 
 // Footer

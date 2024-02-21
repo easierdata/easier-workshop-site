@@ -6,6 +6,7 @@ import About from './pages/about/about';
 import Location from './pages/location/location';
 import Sponsors from './pages/sponsors/sponsors';
 import Speakers from './pages/speakers/speakers';
+import Itinerary from './pages/itinerary/itinerary';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Sponsors />
       <About />
       <Speakers />
+      <Itinerary />
       <Location />
     </div>
   );
