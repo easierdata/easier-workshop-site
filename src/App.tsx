@@ -5,6 +5,7 @@ import Landing from './pages/landing/Landing';
 import About from './pages/about/about';
 import Location from './pages/location/location';
 import Sponsors from './pages/sponsors/sponsors';
+import Speakers from './pages/speakers/speakers';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Landing />
       <Sponsors />
       <About />
+      <Speakers />
       <Location />
     </div>
   );
