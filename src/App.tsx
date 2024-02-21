@@ -8,6 +8,7 @@ import Sponsors from './pages/sponsors/sponsors';
 import Speakers from './pages/speakers/speakers';
 import Itinerary from './pages/itinerary/itinerary';
 import FAQ from './pages/faq/faq';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Itinerary />
       <Location />
       <FAQ />
+      <Footer />
     </div>
   );
 }
