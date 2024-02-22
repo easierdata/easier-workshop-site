@@ -60,9 +60,11 @@ export default function Navbar(): JSX.Element {
                 {links.map(link => (
                     <li
                         key={link.id}
-                        className='p-4 border-b rounded-xl hover:bg-[#039876] duration-300 hover:text-white cursor-pointer border-gray-600'
+                        className='p-4 rounded-xl hover:bg-[#039876] duration-300 hover:text-white cursor-pointer border-gray-600'
                     >
-                        {link.label}
+                        <Link activeClass={link.to} smooth spy to={link.to} onClick={() => toggle()}>
+                            {link.label}
+                        </Link>
                     </li>
                 ))}
             </ul>
