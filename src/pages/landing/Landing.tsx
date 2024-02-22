@@ -4,36 +4,36 @@ import logo from '../../assets/logos/logo.png';
 
 export default function Landing(): JSX.Element {
     return (
-        <div className="h-full grid md:grid-cols-2 ml-14 mr-14 md:ml-20 md:mr-20">
+        <div className="h-full grid md:grid-cols-2 ml-4 mr-4 md:ml-20 md:mr-20">
             <div className="mt-20">
-                <h1 className="font-bold text-6xl">{LandingContent.heading}</h1>
-                <h2 className="mt-4 font-bold text-3xl">{LandingContent.subheading}</h2>
+                <h1 className="font-bold text-4xl md:text-6xl">{LandingContent.heading}</h1>
+                <h2 className="mt-4 font-bold text-2xl md:text-3xl">{LandingContent.subheading}</h2>
                 <hr className="mt-4 mb-4"/>
                 <p className="text-lg mb-4">{LandingContent.description}</p>
 
-                <div className="sm:grid sm:grid-rows-2 md:invisible md:h-0">
+                <div className="sm:visible sm:grid sm:grid-rows-2 md:invisible md:h-0">
                     <button
                         className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
                     >
                         Register
                     </button>
                     <button
-                        className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500"
+                        className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
                     >
-                        Spots still available!
+                        April 3 - 4
                     </button>
                 </div>
 
-                <div className="sm:invisible sm:h-0 md:visible">
+                <div className="invisible sm:invisible sm:h-0 md:visible">
                     <button
                         className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
                     >
                         Register
                     </button>
                     <button
-                        className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500"
+                        className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
                     >
-                        Spots still available!
+                        April 3 - 4
                     </button>
                 </div>
             </div>
@@ -41,7 +41,7 @@ export default function Landing(): JSX.Element {
                 <img 
                     src={logo} 
                     alt="logo" 
-                    className='mt-6 ml-6'
+                    className='mt-6 ml-6 h-2/3'
                 />
             </div>
         </div>

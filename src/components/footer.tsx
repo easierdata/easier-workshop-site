@@ -7,6 +7,7 @@ export default function Footer(): JSX.Element {
             className="py-6"
         >
             <div className='mx-6 md:mx-12 p-6'>
+                <hr />
                 <div className="grid md:grid-cols-2">
                     <div>
                         <h2 className="text-md text-white">Social</h2>

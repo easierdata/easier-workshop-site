@@ -14,10 +14,10 @@ export default function Speakers(): JSX.Element {
             style={{
                 background: `#039876`
             }}
-            className="py-6"
+            className="py-6 overflow-x-hidden"
         >
             <div className="pb-12">
-                <div className="lg:mx-auto w-full mx-[1.5rem]">
+                <div className="lg:mx-auto w-full md:mx-[1.5rem]">
                     <h1 className="text-2xl font-bold text-white text-center">
                         Speakers
                     </h1>
@@ -40,7 +40,7 @@ export default function Speakers(): JSX.Element {
                     >
                         {speakers.map((speaker, index) => {
                             return (
-                                <SwiperSlide key={index} style={{width: "60%"}}>
+                                <SwiperSlide key={index} style={{width: "80%"}}>
                                     <div className="border bg-white mx-6 md:mx-12 rounded-lg border-black mt-16 grid md:grid-cols-2">
                                         <div className="flex items-center justify-center">
                                             <img src={speaker.image} alt={speaker.name} className="h-1/2 " />
