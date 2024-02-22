@@ -9,6 +9,7 @@ export default function Itinerary(): JSX.Element {
                 background: `linear-gradient(0deg, #fff, #039876)`
             }}
             className="py-6"
+            id="itinerary"
         >
             <div className='mx-6 md:mx-12 bg-white rounded-lg p-6'>
                 <h1 className='text-4xl font-bold text-center'>Tentative Itinerary</h1>

@@ -8,6 +8,7 @@ export default function FAQ(): JSX.Element {
                 background: `linear-gradient(0deg, #039876, #fff)`
             }}
             className="py-6 mt-24"
+            id="faq"
         >
             <div className="pt-6 pb-6 bg-white mx-6 md:mx-12 rounded-lg">
                 <h1 className='text-4xl font-bold text-center mt-3'>FAQ</h1>

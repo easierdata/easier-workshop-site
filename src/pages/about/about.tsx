@@ -7,6 +7,7 @@ export default function About(): JSX.Element {
             style={{
                 background: `linear-gradient(0deg, #039876, #fff)`
             }}
+            id="about"
             className="py-6 mt-24"
         >
             <div className="pt-6 bg-white mx-6 md:mx-12 rounded-lg grid md:grid-cols-2">

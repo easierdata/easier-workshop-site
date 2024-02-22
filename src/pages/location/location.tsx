@@ -12,6 +12,7 @@ export default function Location(): JSX.Element {
                 backgroundRepeat: `no-repeat`,
             }}
             className="py-6 mt-24 mb-24"
+            id="location"
         >
             <div className="bg-white mx-6 md:mx-12 rounded-lg grid md:grid-cols-2">
                 <div>

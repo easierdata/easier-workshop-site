@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { faChevronCircleUp, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../assets/logos/logo.png'
+import logo from '../assets/logos/logo.png';
+import { Link } from 'react-scroll';
 
 export default function Navbar(): JSX.Element {
     const [visible, setVisible] = useState(false);
@@ -11,10 +12,10 @@ export default function Navbar(): JSX.Element {
     }
 
     const links = [
-        { id: 1, label: "About" },
-        { id: 2, label: "Schedule" },
-        { id: 3, label: "Where" },
-        { id: 4, label: "FAQ" }
+        { id: 1, label: "About", to: "about" },
+        { id: 2, label: "Schedule", to: "itinerary" },
+        { id: 3, label: "Where", to: "location" },
+        { id: 4, label: "FAQ", to: "faq" }
     ];
 
     return (
@@ -29,9 +30,12 @@ export default function Navbar(): JSX.Element {
                 {links.map(link => (
                     <li
                         key={link.id}
-                        className='p-4 hover:bg-[#039876] hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
                     >
-                        {link.label}
+                        <Link activeClass={link.to} smooth spy to={link.to}
+                            className='p-4 hover:bg-[#039876] hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
+                        >
+                            {link.label}
+                        </Link>
                     </li>
                 ))}
             </ul>
