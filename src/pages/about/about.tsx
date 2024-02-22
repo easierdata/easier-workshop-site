@@ -9,7 +9,7 @@ export default function About(): JSX.Element {
             }}
             className="py-6 mt-24"
         >
-            <div className="border pt-6 bg-white mx-6 md:mx-12 rounded-lg border-black grid md:grid-cols-2">
+            <div className="pt-6 bg-white mx-6 md:mx-12 rounded-lg grid md:grid-cols-2">
                 <div>
                     <h1 className='text-4xl font-bold text-center mt-3'>About</h1>
                     <div className="p-4 text-lg">

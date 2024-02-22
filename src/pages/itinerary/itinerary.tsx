@@ -10,7 +10,7 @@ export default function Itinerary(): JSX.Element {
             }}
             className="py-6"
         >
-            <div className='mx-6 md:mx-12 bg-white rounded-lg border-black border p-6'>
+            <div className='mx-6 md:mx-12 bg-white rounded-lg p-6'>
                 <h1 className='text-4xl font-bold text-center'>Tentative Itinerary</h1>
                 <div className="grid md:grid-cols-2">
                     <div className='mb-6'>

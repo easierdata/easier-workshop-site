@@ -41,7 +41,7 @@ export default function Speakers(): JSX.Element {
                         {speakers.map((speaker, index) => {
                             return (
                                 <SwiperSlide key={index} style={{width: "80%"}}>
-                                    <div className="border bg-white mx-6 md:mx-12 rounded-lg border-black mt-16 grid md:grid-cols-2">
+                                    <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2">
                                         <div className="flex items-center justify-center">
                                             <img src={speaker.image} alt={speaker.name} className="h-1/2 " />
                                         </div>

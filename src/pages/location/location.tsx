@@ -13,7 +13,7 @@ export default function Location(): JSX.Element {
             }}
             className="py-6 mt-24 mb-24"
         >
-            <div className="border bg-white mx-6 md:mx-12 rounded-lg border-black grid md:grid-cols-2">
+            <div className="bg-white mx-6 md:mx-12 rounded-lg grid md:grid-cols-2">
                 <div>
                     <iframe 
                         title="RR" 

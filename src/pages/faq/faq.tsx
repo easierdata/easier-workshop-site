@@ -9,7 +9,7 @@ export default function FAQ(): JSX.Element {
             }}
             className="py-6 mt-24"
         >
-            <div className="border pt-6 pb-6 bg-white mx-6 md:mx-12 rounded-lg border-black">
+            <div className="pt-6 pb-6 bg-white mx-6 md:mx-12 rounded-lg">
                 <h1 className='text-4xl font-bold text-center mt-3'>FAQ</h1>
                 <div className="text-black">
                     {
