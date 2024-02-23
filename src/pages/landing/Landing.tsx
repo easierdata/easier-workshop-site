@@ -16,8 +16,11 @@ export default function Landing(): JSX.Element {
                 <div className="sm:visible sm:grid sm:grid-rows-2 md:invisible md:h-0">
                     <button
                         className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
+                        onClick={() => {
+                            window.location.href = 'mailto:toshan@umd.edu?subject=Open Geospatial Science Workshop Interest'
+                        }}
                     >
-                        Register
+                        Express Interest
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
@@ -29,8 +32,11 @@ export default function Landing(): JSX.Element {
                 <div className="invisible sm:invisible sm:h-0 md:visible">
                     <button
                         className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
+                        onClick={() => {
+                            window.location.href = 'mailto:toshan@umd.edu?subject=Open Geospatial Science Workshop Interest'
+                        }}
                     >
-                        Register
+                        Express Interest
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
@@ -43,7 +49,7 @@ export default function Landing(): JSX.Element {
                 <img 
                     src={logo} 
                     alt="logo" 
-                    className='mt-6 ml-6 h-2/3'
+                    className='mt-6 container max-w-screen-lg mx-auto'
                 />
             </div>
         </div>
