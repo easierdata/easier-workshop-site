@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { faChevronCircleUp, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronCircleUp, faChevronCircleDown, faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/logos/logo.png';
 import { Link } from 'react-scroll';
@@ -42,7 +42,7 @@ export default function Navbar(): JSX.Element {
 
             {/* Mobile */}
             <div onClick={toggle} className='block md:hidden'>
-                {visible ? <FontAwesomeIcon icon={faChevronCircleUp} /> : <FontAwesomeIcon icon={faChevronCircleDown} />}
+                {visible ? <FontAwesomeIcon icon={faBars} size='2x' /> : <FontAwesomeIcon icon={faBars} size='2x'/>}
             </div>
 
             <ul
