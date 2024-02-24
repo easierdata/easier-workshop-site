@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { faChevronCircleUp, faChevronCircleDown, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/logos/logo.png';
 import { Link } from 'react-scroll';
@@ -48,7 +48,7 @@ export default function Navbar(): JSX.Element {
             <ul
                 className={
                 visible
-                    ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500'
+                    ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 z-10'
                     : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                 }
             >
