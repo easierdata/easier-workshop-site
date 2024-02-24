@@ -5,7 +5,7 @@ export const LandingContent = {
 }
 
 export const AboutContent = {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "paragraph": "On April 3rd to 4th (2024), the EASIER Data Initiative will be hosting its very first workshop exploring open geospatial science and the decentralized geospatial web. Guests will be invited and have backgrounds on the diverse spectrum of professionals in GIS, university faculty, those engaged with decentralized technology, and more! The two day event will be filled with lightning talks, brainstorming, project showcases, and more. Food, drinks, and other refreshments will be provided! We envision all attendees leaving the workshop with newfound connections and to be inspired by the potential of the emerging technologies explored. Stay tuned for more logistic updates."
 }
 
 export const LocationContent = {
@@ -33,20 +33,20 @@ export const speakers = [
 // FAQ Content
 export const FAQContent = [
     {
-        "question": "Question 1",
-        "answer": "Answer"
+        "question": "What airports are nearby?",
+        "answer": "There are three airports in the area - Dulles (IAD), Baltimore (BWI), and Washington (DCA). Rideshare or Taxi is the most convenient and fastest way to get to College Park."
     },
     {
-        "question": "Question 2",
-        "answer": "Answer"
+        "question": "Are there any travel accomodations?",
+        "answer": "The suggested accommodation for lodging is The Hotel (The Hotel UMD). We have shared a link for a discounted rate, please feel free to reach out again if you are interested in that special offer."
     },
     {
-        "question": "Question 3",
-        "answer": "Answer"
+        "question": "Will food be provided?",
+        "answer": "In addition to dinner (off-site) on day 1. Lunch, refreshments, and snacks will be provided on both days."
     },
     {
-        "question": "Question 4",
-        "answer": "Answer"
+        "question": "Are invitations still being sent?",
+        "answer": "Yes! If you or someone you know is interested in attending, please express your interest!"
     },
 ]
 
