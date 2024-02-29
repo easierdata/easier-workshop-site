@@ -14,19 +14,24 @@ export const LocationContent = {
 
 export const speakers = [
     {
-        "name": "John Doe",
+        "name": "Armin Mehrabian",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC)."
     },
     {
-        "name": "Peter Parker",
+        "name": "Mike Humber",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "Mike is an Associate Research Professor at the UMD Geographical Sciences, Deputy Director for the NASA Acres Consortium on US agriculture and food security, and Data Lead for the NASA Harvest Consortium on global food security and agriculture. Mike has led the development of several cloud-based GIS and remote sensing systems, including the Global Agricultural Monitoring (GLAM) System and the GEOGLAM Crop Monitor systems. "
     },
     {
-        "name": "Tony Stark",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name": "Rachel Opitz",
+        "image": "rachel_opitz.jpg",
+        "description": "Dr. Rachel Opitz is a researcher and team leader with experience in applied remote sensing, integrating digital technologies into organizations’ workflows, and data interoperability. At the OGC, she leads Collaborative Solutions and Innovation Program initiatives. She currently serves as co-chair of the joint ISAP/AARG/EAC Working Party on Remote Sensing, is an affiliated faculty member at the University of Glasgow, and sits on the editorial board of Groma and the Gabii Project Reports Series."
+    },
+    {
+        "name": "Seth Docherty",
+        "image": "seth_docherty.jpg",
+        "description": "Seth is the newest member of the EASIER Data Initiative. He has a deep background in GIS through working at Esri. At EASIER, he assists developing all projects and is currently exploring feasible ways to curate a pipeline to store GEDI data on Filecoin."
     }
 ]
 

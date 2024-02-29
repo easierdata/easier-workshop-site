@@ -19,7 +19,7 @@ export default function Speakers(): JSX.Element {
             <div className="pb-12">
                 <div className="lg:mx-auto w-full md:mx-[1.5rem]">
                     <h1 className="text-2xl font-bold text-white text-center">
-                        Speakers
+                        Attendees
                     </h1>
                     <div className="md:hidden">
                         <Swiper
@@ -79,9 +79,9 @@ export default function Speakers(): JSX.Element {
                             {speakers.map((speaker, index) => {
                                 return (
                                     <SwiperSlide key={index} style={{width: "50%"}}>
-                                        <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2">
+                                        <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2 p-2 min-h-96">
                                             <div className="flex items-center justify-center">
-                                                <img src={speaker.image} alt={speaker.name} className="h-1/2 " />
+                                                <img src={speaker.image.includes("http") ? speaker.image : require(`../../assets/speakers/${speaker.image}`)} alt={speaker.name} className="p-12" />
                                             </div>
                                             <div>
                                                 <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
@@ -90,6 +90,18 @@ export default function Speakers(): JSX.Element {
                                                 </div>
                                             </div>
                                         </div>
+
+                                        {/* <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2">
+                                            <div className="flex items-center justify-center">
+                                                <img src={speaker.image.includes("http") ? speaker.image : require(`../../assets/speakers/${speaker.image}`)} alt={speaker.name} className="p-12" />
+                                            </div>
+                                            <div>
+                                                <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
+                                                <div className="p-4">
+                                                    <p>{speaker.description}</p>
+                                                </div>
+                                            </div>
+                                        </div> */}
                                     </SwiperSlide>
                                 );
                             })}
