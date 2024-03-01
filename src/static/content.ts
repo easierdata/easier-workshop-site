@@ -1,11 +1,11 @@
 export const LandingContent = {
     "heading": "Workshop on Open Geospatial Science and the Decentralized Geospatial Web",
-    "subheading": "Presented by The EASIER Data Initative at the University of Maryland",
+    "subheading": "Organized by The EASIER Data Initative at the University of Maryland",
     "description": "We are proud to present this workshop on the nexus between open geospatial science and the decentralized web. This will be a 1.5-day event filled held within the Department of Geographical Sciences at the University of Maryland's discovery district. The event will consist of presentations, lightning talks, discussion sessions, and networking opportunities."
 }
 
 export const AboutContent = {
-    "paragraph": "On April 3rd to 4th (2024), the EASIER Data Initiative will be hosting its very first workshop exploring open geospatial science and the decentralized geospatial web. Guests will be invited and have backgrounds on the diverse spectrum of professionals in GIS, university faculty, those engaged with decentralized technology, and more! The 1.5 day event will be filled with lightning talks, brainstorming, project showcases, and more. Food, drinks, and other refreshments will be provided! We envision all attendees leaving the workshop with newfound connections and to be inspired by the potential of the emerging technologies explored. Stay tuned for more logistic updates."
+    "paragraph": ``
 }
 
 export const LocationContent = {
