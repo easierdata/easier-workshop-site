@@ -35,6 +35,11 @@ export const speakers = [
         "affiliation": "Open Geospatial Consortium"
     },
     {
+        "name": "Zheng Liu",
+        "image": "zheng_liu.jpeg",
+        "affiliation": "The University of Maryland (GEOG)"
+    },
+    {
         "name": "Seth Docherty",
         "image": "seth_docherty.jpg",
         "description": "Seth is the newest member of the EASIER Data Initiative. He has a deep background in GIS through working at Esri. At EASIER, he assists developing all projects and is currently exploring feasible ways to curate a pipeline to store GEDI data on Filecoin.",
