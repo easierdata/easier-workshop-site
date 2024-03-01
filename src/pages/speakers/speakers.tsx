@@ -18,7 +18,7 @@ export default function Speakers(): JSX.Element {
         >
             <div className="pb-12">
                 <div className="lg:mx-auto w-full md:mx-[1.5rem]">
-                    <h1 className="text-2xl font-bold text-white text-center">
+                    <h1 className="text-4xl font-bold text-white text-center">
                         Attendees
                     </h1>
                     <div className="md:hidden">
@@ -42,15 +42,11 @@ export default function Speakers(): JSX.Element {
                             {speakers.map((speaker, index) => {
                                 return (
                                     <SwiperSlide key={index} style={{width: "90%"}}>
-                                        <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2">
-                                            <div className="flex items-center justify-center">
-                                                <img src={speaker.image} alt={speaker.name} className="h-1/2 " />
-                                            </div>
-                                            <div>
-                                                <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
-                                                <div className="p-4">
-                                                    <p>{speaker.description}</p>
-                                                </div>
+                                        <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2 h-min-96">
+                                            <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
+                                            <div className="flex items-center justify-center flex-col">
+                                                {speaker.image ? <img src={speaker.image.includes("http") ? speaker.image : `./speakers/${speaker.image}`} alt={speaker.name} className="max-h-52 p-3 " /> : null }
+                                                {speaker.affiliation ? <p className="font-bold text-xl pb-3 p-6">{speaker.affiliation}</p> : null }
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -79,29 +75,15 @@ export default function Speakers(): JSX.Element {
                             {speakers.map((speaker, index) => {
                                 return (
                                     <SwiperSlide key={index} style={{width: "50%"}}>
-                                        <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2 p-2 md:min-h-96 md:max-h-96">
+                                        <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 p-2">
+                                            <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
                                             <div className="flex items-center justify-center h-full">
-                                                <img src={speaker.image.includes("http") ? speaker.image : `./speakers/${speaker.image}`} alt={speaker.name} className="p-12 h-96 w-auto" />
+                                                {speaker.image ? <img src={speaker.image.includes("http") ? speaker.image : `./speakers/${speaker.image}`} alt={speaker.name} className="p-12 h-96 w-auto" /> : null}
                                             </div>
-                                            <div>
-                                                <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
-                                                <div className="p-4">
-                                                    <p>{speaker.description}</p>
-                                                </div>
+                                            <div className="p-4 text-center">
+                                                {speaker.affiliation ? <p className="font-bold text-xl pb-3">{speaker.affiliation}</p> : null}
                                             </div>
                                         </div>
-
-                                        {/* <div className="bg-white mx-6 md:mx-12 rounded-lg mt-16 grid md:grid-cols-2">
-                                            <div className="flex items-center justify-center">
-                                                <img src={speaker.image.includes("http") ? speaker.image : require(`../../assets/speakers/${speaker.image}`)} alt={speaker.name} className="p-12" />
-                                            </div>
-                                            <div>
-                                                <h1 className='text-2xl font-bold text-center mt-3'>{speaker.name}</h1>
-                                                <div className="p-4">
-                                                    <p>{speaker.description}</p>
-                                                </div>
-                                            </div>
-                                        </div> */}
                                     </SwiperSlide>
                                 );
                             })}

@@ -50,7 +50,8 @@
 
 .accordionAnswer{
     color: var(--gray);
-    text-align: left;
+    text-align: center;
+    width: 50%;
     font-size: 15px;
     transition: 0.3s ease-in-out;
     margin: auto;

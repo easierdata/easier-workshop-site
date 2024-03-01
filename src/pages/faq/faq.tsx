@@ -1,4 +1,4 @@
-import { Accordion } from "../../components/accordion/accordion"
+import { Accordion, SpecialQS } from "../../components/accordion/accordion"
 import { FAQContent } from "../../static/content"
 
 export default function FAQ(): JSX.Element {
@@ -27,6 +27,7 @@ export default function FAQ(): JSX.Element {
                         })
                     }
                 </div>
+                <SpecialQS />
             </div>
         </div>
     )

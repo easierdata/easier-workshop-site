@@ -1,6 +1,6 @@
 import React from "react";
 import { LandingContent } from "../../static/content";
-import logo from '../../assets/logos/logo.png';
+import globe from '../../assets/globe.png';
 import group from '../../assets/accessories/group.svg';
 
 export default function Landing(): JSX.Element {
@@ -47,9 +47,9 @@ export default function Landing(): JSX.Element {
             </div>
             <div>
                 <img 
-                    src={logo} 
+                    src={globe} 
                     alt="logo" 
-                    className='mt-6 container max-w-screen-lg mx-auto'
+                    className='mt-6 container max-w-screen-sm mx-auto'
                 />
             </div>
         </div>
