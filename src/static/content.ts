@@ -86,6 +86,6 @@ export const FAQContent = [
     },
     {
         "question": "Will food be provided?",
-        "answer": "In addition to a nearby off-site group dinner (off-site) on day 1, lunch, refreshments, and snacks will be provided during the event on both days."
+        "answer": "In addition to a nearby off-site group dinner on day 1, lunch, refreshments, and snacks will be provided during the event on both days."
     },
 ]
