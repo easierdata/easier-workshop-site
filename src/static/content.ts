@@ -45,6 +45,11 @@ export const speakers = [
         "affiliation": "DeSci labs"
     },
     {
+        "name": "Shayna Solis",
+        "image": "Shayna_Solis.png",
+        "affiliation": "Navteca",
+    },
+    {
         "name": "Armin Mehrabian",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
         "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
@@ -63,7 +68,7 @@ export const speakers = [
     },
     {
         "name": "Seth Docherty",
-        "image": "seth_docherty.jpg",
+        "image": "seth_docherty.jpeg",
         "description": "Seth is the newest member of the EASIER Data Initiative. He has a deep background in GIS through working at Esri. At EASIER, he assists developing all projects and is currently exploring feasible ways to curate a pipeline to store GEDI data on Filecoin.",
         "affiliation": "The University of Maryland (GEOG)"
     },
