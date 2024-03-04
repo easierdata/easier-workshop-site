@@ -5,9 +5,9 @@ export default function FAQ(): JSX.Element {
     return (
         <div
             style={{
-                background: `linear-gradient(0deg, #039876, #fff)`
+                background: `#039876`
             }}
-            className="py-6 mt-24"
+            className=""
             id="faq"
         >
             <div className="pt-6 pb-6 bg-white mx-6 md:mx-12 rounded-lg">

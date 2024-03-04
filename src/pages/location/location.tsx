@@ -5,16 +5,12 @@ export default function Location(): JSX.Element {
     return (
         <div
             style={{
-                backgroundColor: "#fff",
-                backgroundImage: `linear-gradient(
-                    to bottom, #fff, transparent, #fff
-                ), url(${RR})`,
-                backgroundRepeat: `no-repeat`,
+                background: `#039876`
             }}
-            className="py-6 mt-24 mb-24"
+            className="py-6"
             id="location"
         >
-            <div className="bg-white mx-6 md:mx-12 rounded-lg">
+            <div className="bg-white mx-6 md:mx-12 rounded-lg mt-24 mb-24">
                 <h1 className='text-4xl font-bold text-center p-6'>Where</h1>
                 <div className="p-4 text-lg text-center">
                     <p>{LocationContent.paragraph}</p>

@@ -35,6 +35,28 @@ export const speakers = [
         "affiliation": "Open Geospatial Consortium"
     },
     {
+        "name": "Brynn O'Donnell",
+        "image": "Brynn_ODonnell.jpg",
+        "affiliation": "The Filecoin Foundation for the Decentralized Web"
+    },
+    {
+        "name": "Erik Van Winkle",
+        "image": "Erik_van_Winkle.jpg",
+        "affiliation": "DeSci labs"
+    },
+    {
+        "name": "Armin Mehrabian",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
+        "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
+        "affiliation": "NASA GES-DISC",
+    },
+    {
+        "name": "Mike Humber",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
+        "description": "Mike is an Associate Research Professor at the UMD Geographical Sciences, Deputy Director for the NASA Acres Consortium on US agriculture and food security, and Data Lead for the NASA Harvest Consortium on global food security and agriculture. Mike has led the development of several cloud-based GIS and remote sensing systems, including the Global Agricultural Monitoring (GLAM) System and the GEOGLAM Crop Monitor systems. ",
+        "affiliation": "The University of Maryland, Department of Geographical Sciences",
+    },
+    {
         "name": "Zheng Liu",
         "image": "zheng_liu.jpeg",
         "affiliation": "The University of Maryland (GEOG)"
@@ -54,23 +76,6 @@ export const speakers = [
         "name": "Matthew Nanas",
         "image": "Matthew_Nanas.jpeg",
         "affiliation": "The University of Maryland (GEOG & IS)"
-    },
-    {
-        "name": "Brynn O'Donnell",
-        "image": "Brynn_ODonnell.jpg",
-        "affiliation": "The Filecoin Foundation for the Decentralized Web"
-    },
-    {
-        "name": "Armin Mehrabian",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
-        "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
-        "affiliation": "NASA GES-DISC",
-    },
-    {
-        "name": "Mike Humber",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
-        "description": "Mike is an Associate Research Professor at the UMD Geographical Sciences, Deputy Director for the NASA Acres Consortium on US agriculture and food security, and Data Lead for the NASA Harvest Consortium on global food security and agriculture. Mike has led the development of several cloud-based GIS and remote sensing systems, including the Global Agricultural Monitoring (GLAM) System and the GEOGLAM Crop Monitor systems. ",
-        "affiliation": "The University of Maryland, Department of Geographical Sciences",
     },
     {
         "name": "More coming soon!",
