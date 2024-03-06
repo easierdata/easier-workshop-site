@@ -32,7 +32,7 @@ export default function Navbar(): JSX.Element {
                         key={link.id}
                     >
                         <Link activeClass={link.to} smooth spy to={link.to}
-                            className='p-4 hover:bg-[#039876] hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
+                            className='p-4 hover:bg-[#039876] hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black text-gray-500 font-bold hover:no-underline'
                         >
                             {link.label}
                         </Link>
