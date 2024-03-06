@@ -24,6 +24,16 @@ export const speakers = [
         "affiliation": "Textile"
     },
     {
+        "name": "Shayna Solis",
+        "image": "Shayna_Solis.png",
+        "affiliation": "Navteca",
+    },
+    {
+        "name": "Joshua Campbell",
+        "image": "Joshua_Campbell.jpg",
+        "affiliation": "Sand Hill Geographic",
+    },
+    {
         "name": "Ziheng Sun",
         "image": "ziheng_sun.jpg",
         "affiliation": "George Mason Univesity (GEOG & Spatial Systems)"
@@ -45,11 +55,6 @@ export const speakers = [
         "affiliation": "DeSci labs"
     },
     {
-        "name": "Shayna Solis",
-        "image": "Shayna_Solis.png",
-        "affiliation": "Navteca",
-    },
-    {
         "name": "Armin Mehrabian",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
         "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
@@ -64,6 +69,11 @@ export const speakers = [
     {
         "name": "Zheng Liu",
         "image": "zheng_liu.jpeg",
+        "affiliation": "The University of Maryland (GEOG)"
+    },
+    {
+        "name": "Victor Irekponor",
+        "image": "Victor_Irekponor.jpeg",
         "affiliation": "The University of Maryland (GEOG)"
     },
     {
