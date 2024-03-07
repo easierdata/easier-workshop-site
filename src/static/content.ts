@@ -34,6 +34,11 @@ export const speakers = [
         "affiliation": "Sand Hill Geographic",
     },
     {
+        "name": "Christopher Tucker",
+        "image": "Christopher_Tucker.jpeg",
+        "affiliation": "GeoRobotix",
+    },
+    {
         "name": "Ziheng Sun",
         "image": "ziheng_sun.jpg",
         "affiliation": "George Mason Univesity (GEOG & Spatial Systems)"
