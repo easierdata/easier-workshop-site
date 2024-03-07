@@ -60,6 +60,11 @@ export const speakers = [
         "affiliation": "DeSci labs"
     },
     {
+        "name": "Mengxue Li",
+        "image": "Mengxue_Li.jpeg",
+        "affiliation": "The University of Maryland, Department of Geographical Sciences",
+    },
+    {
         "name": "Armin Mehrabian",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
         "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
