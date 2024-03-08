@@ -44,6 +44,11 @@ export const speakers = [
         "affiliation": "Azavea / Element 84",
     },
     {
+        "name": "Danny Gattas",
+        "image": "Danny_Gattas.jpg",
+        "affiliation": "Astral",
+    },
+    {
         "name": "Rachel Opitz",
         "image": "rachel_opitz.jpg",
         "description": "Dr. Rachel Opitz is a researcher and team leader with experience in applied remote sensing, integrating digital technologies into organizations’ workflows, and data interoperability. At the OGC, she leads Collaborative Solutions and Innovation Program initiatives. She currently serves as co-chair of the joint ISAP/AARG/EAC Working Party on Remote Sensing, is an affiliated faculty member at the University of Glasgow, and sits on the editorial board of Groma and the Gabii Project Reports Series.",
