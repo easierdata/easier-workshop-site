@@ -39,9 +39,9 @@ export const speakers = [
         "affiliation": "GeoRobotix",
     },
     {
-        "name": "Ziheng Sun",
-        "image": "ziheng_sun.jpg",
-        "affiliation": "George Mason Univesity (GEOG & Spatial Systems)"
+        "name": "Robert Cheetham",
+        "image": "Robert_Cheetham.jpg",
+        "affiliation": "Azavea / Element 84",
     },
     {
         "name": "Rachel Opitz",
@@ -55,9 +55,19 @@ export const speakers = [
         "affiliation": "The Filecoin Foundation for the Decentralized Web"
     },
     {
+        "name": "Jefferson Sankara",
+        "image": "Jefferson_Sankara.jpg",
+        "affiliation": "The Filecoin Foundation for the Decentralized Web"
+    },
+    {
         "name": "Erik Van Winkle",
         "image": "Erik_van_Winkle.jpg",
         "affiliation": "DeSci labs"
+    },
+    {
+        "name": "Ziheng Sun",
+        "image": "ziheng_sun.jpg",
+        "affiliation": "George Mason Univesity (GEOG & Spatial Systems)"
     },
     {
         "name": "Mengxue Li",
