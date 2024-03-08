@@ -12,10 +12,10 @@ export default function Itinerary(): JSX.Element {
             id="itinerary"
         >
             <div className='mx-6 md:mx-12 bg-white rounded-lg p-6'>
-                <h1 className='text-4xl font-bold text-center'>Tentative Itinerary</h1>
+                <h1 className='text-4xl font-bold text-center select-none'>Tentative Itinerary</h1>
                 <div className="grid md:grid-cols-2">
                     <div className='mb-6'>
-                        <h1 className='text-center text-2xl font-bold mb-6'>April 3rd</h1>
+                        <h1 className='text-center text-2xl font-bold mb-6 select-none'>April 3rd</h1>
                         <Timeline className='mb-6'>
                             <Timeline.Item time="9:15 AM EST - 9:30 AM EST">
                                 <p className="text-lg">Welcome & Introduction</p>
@@ -60,7 +60,7 @@ export default function Itinerary(): JSX.Element {
                         </Timeline>
                     </div>
                     <div className='mb-6'>
-                        <h1 className='text-center text-2xl font-bold mb-6'>April 4th</h1>
+                        <h1 className='text-center text-2xl font-bold mb-6 select-none'>April 4th</h1>
                         <Timeline className='mb-6'>
                             <Timeline.Item time="9:30 AM EST - 10:00 AM EST">
                                 <p className="text-lg">Erik van Winkle (DeSci Labs): Title TDB</p>
@@ -84,7 +84,7 @@ export default function Itinerary(): JSX.Element {
                         </Timeline>
                     </div>
                 </div>
-                <p className='text-center font-bold'>*Itinerary is subject to change as logistics are confirmed*</p>
+                <p className='text-center font-bold select-none'>*Itinerary is subject to change as logistics are confirmed*</p>
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ import styles from './sponsors.module.css';
 export default function Sponsors(): JSX.Element {
     return (
         <div className="w-full mt-24 text-center">
-            <h1 className='text-2xl font-bold'>With support from</h1>
+            <h1 className='text-2xl font-bold select-none'>With support from</h1>
             <div>
                 <div className={styles.logos}>
                     <img src={FFDW} alt="logo" className='p-6 md:p-3 mx-auto mt-3 cursor-pointer' onClick={() => window.open("https://ffdweb.org/", "_blank")} />

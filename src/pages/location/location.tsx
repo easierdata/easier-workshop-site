@@ -11,7 +11,7 @@ export default function Location(): JSX.Element {
             id="location"
         >
             <div className="bg-white mx-6 md:mx-12 rounded-lg mt-24 mb-24">
-                <h1 className='text-4xl font-bold text-center p-6'>Where</h1>
+                <h1 className='text-4xl font-bold text-center p-6 select-none'>Where</h1>
                 <div className="p-4 text-lg text-center">
                     <p>{LocationContent.paragraph}</p>
                 </div>

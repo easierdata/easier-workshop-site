@@ -14,7 +14,7 @@ export default function Speakers(): JSX.Element {
             style={{
                 background: `#039876`
             }}
-            className="py-6 overflow-x-hidden"
+            className="py-6 overflow-x-hidden select-none"
         >
             <div className="pb-12">
                 <div className="lg:mx-auto w-full md:mx-[1.5rem]">

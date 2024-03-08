@@ -5,7 +5,7 @@ import group from '../../assets/accessories/group.svg';
 
 export default function Landing(): JSX.Element {
     return (
-        <div className="h-full grid md:grid-cols-2 ml-4 mr-4 md:ml-20 md:mr-20">
+        <div className="h-full grid md:grid-cols-2 ml-4 mr-4 md:ml-20 md:mr-20 select-none">
             <img src={group} alt="Landing" className="absolute top-20 right-0 w-1/2 -z-10" />
             <div className="mt-8 md:mt-20">
                 <h1 className="font-bold text-4xl md:text-6xl">{LandingContent.heading}</h1>
