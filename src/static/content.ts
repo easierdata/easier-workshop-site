@@ -81,7 +81,7 @@ export const speakers = [
     },
     {
         "name": "Armin Mehrabian",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
+        "image": "Armin_Mehrabian.jpg",
         "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
         "affiliation": "NASA GES-DISC",
     },
