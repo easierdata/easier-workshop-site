@@ -92,6 +92,11 @@ export const speakers = [
         "affiliation": "The University of Maryland, Department of Geographical Sciences",
     },
     {
+        "name": "Juan Fernando Martinez",
+        "image": "Juan_Martinez.jpg",
+        "affiliation": "Columbia University (CIESIN)",
+    },
+    {
         "name": "Zheng Liu",
         "image": "zheng_liu.jpeg",
         "affiliation": "The University of Maryland (GEOG)"
