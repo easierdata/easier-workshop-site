@@ -17,7 +17,7 @@ export default function Landing(): JSX.Element {
                     <button
                         className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
                         onClick={() => {
-                            window.location.href = 'mailto:toshan@umd.edu?subject=Open Geospatial Science Workshop Interest'
+                            window.open('https://forms.gle/NimofD4pWaiH9WNt8', '_blank');
                         }}
                     >
                         Express Interest
@@ -33,7 +33,7 @@ export default function Landing(): JSX.Element {
                     <button
                         className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
                         onClick={() => {
-                            window.location.href = 'mailto:toshan@umd.edu?subject=Open Geospatial Science Workshop Interest'
+                            window.open('https://forms.gle/NimofD4pWaiH9WNt8', '_blank');
                         }}
                     >
                         Express Interest
