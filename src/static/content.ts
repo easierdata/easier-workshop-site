@@ -49,6 +49,16 @@ export const speakers = [
         "affiliation": "Astral",
     },
     {
+        "name": "Robert Pitts",
+        "image": "Robert_Pitts.jpg",
+        "affiliation": "New Light Technologies",
+    },
+    {
+        "name": "Volker Mische",
+        "image": "Volker_Mische.png",
+        "affiliation": "Protocol Labs",
+    },
+    {
         "name": "Eric Olson",
         "image": "Eric_Olson.jpeg",
         "affiliation": "Center for Open Science",
