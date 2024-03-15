@@ -102,7 +102,7 @@ export const speakers = [
     },
     {
         "name": "Mike Humber",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png",
+        "image": "Mike_Humber.png",
         "description": "Mike is an Associate Research Professor at the UMD Geographical Sciences, Deputy Director for the NASA Acres Consortium on US agriculture and food security, and Data Lead for the NASA Harvest Consortium on global food security and agriculture. Mike has led the development of several cloud-based GIS and remote sensing systems, including the Global Agricultural Monitoring (GLAM) System and the GEOGLAM Crop Monitor systems. ",
         "affiliation": "The University of Maryland, Department of Geographical Sciences",
     },
