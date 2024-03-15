@@ -64,6 +64,17 @@ export const speakers = [
         "affiliation": "Center for Open Science",
     },
     {
+        "name": "Armin Mehrabian",
+        "image": "Armin_Mehrabian.jpg",
+        "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
+        "affiliation": "NASA GES-DISC",
+    },
+    {
+        "name": "Leah Schwizer",
+        "image": "Leah_Schwizer.jpg",
+        "affiliation": "NASA",
+    },
+    {
         "name": "Rachel Opitz",
         "image": "rachel_opitz.jpg",
         "description": "Dr. Rachel Opitz is a researcher and team leader with experience in applied remote sensing, integrating digital technologies into organizations’ workflows, and data interoperability. At the OGC, she leads Collaborative Solutions and Innovation Program initiatives. She currently serves as co-chair of the joint ISAP/AARG/EAC Working Party on Remote Sensing, is an affiliated faculty member at the University of Glasgow, and sits on the editorial board of Groma and the Gabii Project Reports Series.",
@@ -93,12 +104,6 @@ export const speakers = [
         "name": "Mengxue Li",
         "image": "Mengxue_Li.jpeg",
         "affiliation": "The University of Maryland, Department of Geographical Sciences",
-    },
-    {
-        "name": "Armin Mehrabian",
-        "image": "Armin_Mehrabian.jpg",
-        "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
-        "affiliation": "NASA GES-DISC",
     },
     {
         "name": "Mike Humber",
