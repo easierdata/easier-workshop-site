@@ -24,6 +24,11 @@ export const speakers = [
         "affiliation": "Textile"
     },
     {
+        "name": "Ryan King",
+        "image": "Ryan_King.jpeg",
+        "affiliation": "FOAM Proof of Location"
+    },
+    {
         "name": "Shayna Solis",
         "image": "Shayna_Solis.png",
         "affiliation": "Navteca",
