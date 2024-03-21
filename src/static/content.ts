@@ -54,6 +54,11 @@ export const speakers = [
         "affiliation": "Astral",
     },
     {
+        "name": "Sudhir Shrestha",
+        "image": "Sudhir_Shrestha.jpg",
+        "affiliation": "NOAA",
+    },
+    {
         "name": "Robert Pitts",
         "image": "Robert_Pitts.jpg",
         "affiliation": "New Light Technologies",
