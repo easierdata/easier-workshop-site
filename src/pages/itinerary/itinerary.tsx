@@ -65,6 +65,9 @@ export default function Itinerary(): JSX.Element {
                             <Timeline.Item time="4:30 PM EST - 5:00 PM EST">
                                 <p className="text-lg">Discussion Section II</p>
                             </Timeline.Item>
+                            <Timeline.Item time="6:00 PM EST - 7:00 PM EST">
+                                <p className="text-lg">Group Dinner at <a href="https://www.gmxumd.com" target='_blank' rel="noreferrer">Grillmarkx</a></p>
+                            </Timeline.Item>
                             <Timeline.Item />
                         </Timeline>
                     </div>
@@ -101,7 +104,7 @@ export default function Itinerary(): JSX.Element {
                             <Timeline.Item time="12:40 PM EST - 1:00 PM EST">
                                 <p className="text-lg">Final Remarks</p>
                             </Timeline.Item>
-                            <Timeline.Item time="1:00 PM EST - 1:45 PM EST">
+                            <Timeline.Item time="1:00 PM EST - 2:00 PM EST">
                                 <p className="text-lg">Lunch</p>
                             </Timeline.Item>
                             <Timeline.Item />
