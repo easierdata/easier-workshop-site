@@ -74,6 +74,11 @@ export const speakers = [
         "affiliation": "Center for Open Science",
     },
     {
+        "name": "Anna Burzykowska",
+        "image": "Anna_Burzykowska.jpg",
+        "affiliation": "European Space Agency",
+    },
+    {
         "name": "Armin Mehrabian",
         "image": "Armin_Mehrabian.jpg",
         "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
@@ -103,7 +108,7 @@ export const speakers = [
     {
         "name": "Erik Van Winkle",
         "image": "Erik_van_Winkle.jpg",
-        "affiliation": "DeSci labs"
+        "affiliation": "DeSci Labs"
     },
     {
         "name": "Ziheng Sun",
