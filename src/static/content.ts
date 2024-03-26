@@ -132,6 +132,11 @@ export const speakers = [
         "affiliation": "Columbia University (CIESIN)",
     },
     {
+        "name": `Yuhan "Douglas" Rao`,
+        "image": "Yuhan_Douglas_Rao.jpg",
+        "affiliation": "NC State University",
+    },
+    {
         "name": "Zheng Liu",
         "image": "zheng_liu.jpeg",
         "affiliation": "The University of Maryland (GEOG)"
