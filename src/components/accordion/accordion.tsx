@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronCircleUp, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import styles from './accordion.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -29,7 +29,7 @@ export function Accordion(props: {
     return (
         <div className={styles.accordionContainer}>
             <button className={styles.accordionButton} onClick={handleClick}>
-                {props.question}<h2 className={styles.accordionTitle} style={{ transform: dropIcon }}><FontAwesomeIcon icon={faChevronCircleUp} /></h2>
+                {props.question}<h2 className={styles.accordionTitle} style={{ transform: dropIcon }}><FontAwesomeIcon icon={faChevronUp} /></h2>
             </button>
             <div>
                 <p className={styles.accordionAnswer} style={{ opacity: opacity, marginTop: answerPosition, fontSize: textSize }}>{props.answer}</p>
@@ -82,7 +82,7 @@ export function SpecialQS(): JSX.Element {
         <div>
             <div className={styles.accordionContainer}>
                 <button className={styles.accordionButton} onClick={handleClick}>
-                    Are there any suggested accommodations?<h2 className={styles.accordionTitle} style={{ transform: dropIcon }}><FontAwesomeIcon icon={faChevronCircleUp} /></h2>
+                    Are there any suggested accommodations?<h2 className={styles.accordionTitle} style={{ transform: dropIcon }}><FontAwesomeIcon icon={faChevronUp} /></h2>
                 </button>
                 <div>
                     <p className={styles.accordionAnswer} style={{ opacity: opacity, marginTop: answerPosition, fontSize: textSize }}>For those traveling from further afield, the suggested accommodation for lodging is <a href="https://www.thehotelumd.com/?gad_source=1&gclid=Cj0KCQiAw6yuBhDrARIsACf94RVjU-mijvlHgp_006IaAlk9pH8ul651BmOa724R3zhHxHh4yahJwYIaAr-jEALw_wcB" target='_blank' rel="noreferrer">The Hotel</a>, which is fairly new and well regarded. <a href="https://reservations.travelclick.com/107316?RatePlanId=3056928" target='_blank' rel="noreferrer">This link</a> can be used to book rooms at the UMD discounted rate. Limited travel support support may be available, in which case we can assist with booking a room.</p>
@@ -90,7 +90,7 @@ export function SpecialQS(): JSX.Element {
             </div>
             <div className={styles.accordionContainer}>
                 <button className={styles.accordionButton} onClick={handleClick2}>
-                    Is there still capacity for add additional participants?<h2 className={styles.accordionTitle} style={{ transform: dropIcon2 }}><FontAwesomeIcon icon={faChevronCircleUp} /></h2>
+                    Is there still capacity for add additional participants?<h2 className={styles.accordionTitle} style={{ transform: dropIcon2 }}><FontAwesomeIcon icon={faChevronUp} /></h2>
                 </button>
                 <div>
                     <p className={styles.accordionAnswer} style={{ opacity: opacity2, marginTop: answerPosition2, fontSize: textSize2 }}>Yes! If you or someone you know is interested in attending, please <a href="https://forms.gle/yKoDczS7ZeUQpCZ6A" target='_blank' rel="noreferrer">fill out this form</a> or reach out to <a href='mailto:toshan@umd.edu?subject=Open Geospatial Science Workshop Interest'>toshan@umd.edu</a></p>
