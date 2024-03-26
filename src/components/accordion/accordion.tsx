@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { faChevronCircleUp, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import styles from './accordion.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
