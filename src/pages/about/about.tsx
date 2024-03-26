@@ -18,6 +18,16 @@ export default function About(): JSX.Element {
                         <p>In particular, decentralized practices and technology, such as web protocols, blockchain, and smart contracts can increase the openness of the geospatial sciences and facilitate reproducibility and replicability. For instance, content-addressing helps avoid ‘link rot’ by allowing files to be referenced by a unique hash based on the content of a file itself, rather than location, so that the file can be sustainably referenced on the web regardless of where it is stored. Content-addressing can also ensure file integrity because a change in a file also changes the hash used to reference it. Distributed systems for sharing files based on content-addressing facilitates a more connected and optimal user-to-user network of content delivery rather than a hub-and-spoke system of file requests. Meanwhile, blockchain and smart contracts make it possible to incorporate transparent, trustless, and consensus-based layers into the data ecosystem. However, many decentralized technologies are still nascent and their adoption, especially in the geospatial domain, are still limited. Thus, an important and timely question is “How might an emerging decentralized geospatial web support the geospatial sciences to become more open, transparent, reproducible, and robust?”.</p>
                         <br />
                         <p>Towards answering this question, this workshop will bring together domain experts from the geospatial sciences, open science best-practices, and the decentralized web ecosystem to better understand the current state-of-the-art and how these three areas can come together to imagine possible future pathways for the next generation of open geospatial science. The primary output will be an executive summary of the event that outlines an agenda for future research and collaboration.</p>
+                        <br />
+                        <p>
+                            Some focus questions for the event include:
+                            <ul>
+                                <li>1. What is the current state-of-the-art in open science practices?</li>
+                                <li>2. What are the unique challenges and opportunities for making geospatial science and technology more open?</li>
+                                <li>3. How can the decentralized web contribute to open science and society more broadly and specifically the geospatial sciences as aspects of society?</li>
+                                <li>4. What are the primary hurdles that need to be overcome to develop a decentralized geospatial web in support of open geospatial science and technology?</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>

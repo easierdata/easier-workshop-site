@@ -54,7 +54,7 @@ export default function Itinerary(): JSX.Element {
                                 <p className="text-lg">Coffee & Networking Break</p>
                             </Timeline.Item>
                             <Timeline.Item time="3:00 PM EST - 3:30 PM EST">
-                                <p className="text-lg">Sudhir Shrestha (NOAA) - Title TBD</p>
+                                <p className="text-lg">TBD</p>
                             </Timeline.Item>
                             <Timeline.Item time="3:30 PM EST - 4:00 PM EST">
                                 <p className="text-lg">Christopher Tucker (GeoRobotix) - Title TBD</p>
