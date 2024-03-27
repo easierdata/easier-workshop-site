@@ -24,7 +24,7 @@ export default function About(): JSX.Element {
                             <ul>
                                 <li>1. What is the current state-of-the-art in open science practices?</li>
                                 <li>2. What are the unique challenges and opportunities for making geospatial science and technology more open?</li>
-                                <li>3. How can the decentralized web contribute to open science and society more broadly and specifically the geospatial sciences as aspects of society?</li>
+                                <li>3. How can the decentralized web contribute to open science and society more broadly and specifically the geospatial sciences and aspects of society?</li>
                                 <li>4. What are the primary hurdles that need to be overcome to develop a decentralized geospatial web in support of open geospatial science and technology?</li>
                             </ul>
                         </p>
