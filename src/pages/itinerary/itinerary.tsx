@@ -57,7 +57,7 @@ export default function Itinerary(): JSX.Element {
                                 <p className="text-lg">TBD</p>
                             </Timeline.Item>
                             <Timeline.Item time="3:30 PM EST - 4:00 PM EST">
-                                <p className="text-lg">Christopher Tucker (GeoRobotix) - Title TBD</p>
+                                <p className="text-lg">Christopher Tucker (GeoRobotix) - OGC API: Connected Systems Standard and OpenSensorHub in Enabling a Decentralized Web of Systems</p>
                             </Timeline.Item>
                             <Timeline.Item time="4:00 PM EST - 4:30 PM EST">
                                 <p className="text-lg">Ryan King (FOAM.space) - The Importance of Time Synchronization</p>
@@ -96,7 +96,7 @@ export default function Itinerary(): JSX.Element {
                                 <p className="text-lg">Matthew Nanas (The University of Maryland) - Geospatial Dashboard Demo</p>
                             </Timeline.Item>
                             <Timeline.Item time="12:10 PM EST - 12:25 PM EST">
-                                <p className="text-lg">Danny Gattas (Astral) - Title TBD</p>
+                                <p className="text-lg">Danny Gattas (Astral) - Enabling development of location based DApps</p>
                             </Timeline.Item>
                             <Timeline.Item time="12:25 PM EST - 12:40 PM EST">
                                 <p className="text-lg">Jefferson Sankara (The Filecoin Foundation for the Decentralized Web) - Building planetary-scale applications on Filecoin</p>
