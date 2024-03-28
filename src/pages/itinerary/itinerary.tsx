@@ -38,23 +38,23 @@ export default function Itinerary(): JSX.Element {
                             <Timeline.Item time="12:00 PM EST - 1:00 PM EST">
                                 <p className="text-lg">Lunch Break</p>
                             </Timeline.Item>
-                            <Timeline.Item time="1:00 PM EST - 1:15 PM EST">
-                                <p className="text-lg">Eric Olson (Center for Open Science) - Title TBD</p>
-                            </Timeline.Item>
-                            <Timeline.Item time="1:15 PM EST - 1:30 PM EST">
+                            <Timeline.Item time="1:00 PM EST - 1:30 PM EST">
                                 <p className="text-lg">Juan Fernando Martinez (Columbia University) - Embracing Open Science Principles in Data Science: Opportunities, Challenges, and Beyond</p>
                             </Timeline.Item>
-                            <Timeline.Item time="1:30 PM EST - 2:00 PM EST">
+                            <Timeline.Item time="1:30 PM EST - 1:45 PM EST">
+                                <p className="text-lg">Eric Olson (Center for Open Science) - Title TBD</p>
+                            </Timeline.Item>
+                            <Timeline.Item time="1:45 PM EST - 2:15 PM EST">
                                 <p className="text-lg">Erik Van Winkle (DeSci Labs) - Experimentation on digitally native publication: dPIDs, research objects and attestations</p>
                             </Timeline.Item>
-                            <Timeline.Item time="2:00 PM EST - 2:30 PM EST">
+                            <Timeline.Item time="2:15 PM EST - 2:45 PM EST">
                                 <p className="text-lg">Discussion Session I</p>
                             </Timeline.Item>
-                            <Timeline.Item time="2:30 PM EST - 3:00 PM EST">
+                            <Timeline.Item time="2:45 PM EST - 3:15 PM EST">
                                 <p className="text-lg">Coffee & Networking Break</p>
                             </Timeline.Item>
-                            <Timeline.Item time="3:00 PM EST - 3:30 PM EST">
-                                <p className="text-lg">TBD</p>
+                            <Timeline.Item time="3:15 PM EST - 3:30 PM EST">
+                                <p className="text-lg">Douglas Rao (NC State University) - Title TBD</p>
                             </Timeline.Item>
                             <Timeline.Item time="3:30 PM EST - 4:00 PM EST">
                                 <p className="text-lg">Christopher Tucker (GeoRobotix) - OGC API: Connected Systems Standard and OpenSensorHub in Enabling a Decentralized Web of Systems</p>
@@ -104,7 +104,7 @@ export default function Itinerary(): JSX.Element {
                             <Timeline.Item time="12:40 PM EST - 1:00 PM EST">
                                 <p className="text-lg">Final Remarks</p>
                             </Timeline.Item>
-                            <Timeline.Item time="1:00 PM EST - 2:00 PM EST">
+                            <Timeline.Item time="1:00 PM EST - 1:45 PM EST">
                                 <p className="text-lg">Lunch</p>
                             </Timeline.Item>
                             <Timeline.Item />
