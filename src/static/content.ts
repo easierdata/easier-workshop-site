@@ -61,7 +61,7 @@ export const speakers = [
     {
         "name": "Volker Mische",
         "image": "Volker_Mische.png",
-        "affiliation": "Independent Researcher from Protocol Labs",
+        "affiliation": "Independent Researcher",
     },
     {
         "name": "Eric Olson",
