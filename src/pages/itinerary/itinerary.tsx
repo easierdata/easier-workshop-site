@@ -24,13 +24,13 @@ export default function Itinerary(): JSX.Element {
                                 <p className="text-lg">Carson Farmer (Textile) - From maps, to bits, & beyond: Bringing together open geospatial science and the decentralized web</p>
                             </Timeline.Item>
                             <Timeline.Item time="10:15 AM EST - 10:45 AM EST">
-                                <p className="text-lg">Rachel Opitz (Open Geospatial Consortium) - The OGC Open Science Persistent Demonstrator: Designing a distibuted platform for standards-based geospatial open science workflows</p>
+                                <p className="text-lg">Volker Mische (Independent Researcher) - Content-addressing: chances for data distribution and verifiable data pipelines</p>
                             </Timeline.Item>
                             <Timeline.Item time="10:45 AM EST - 11:15 AM EST">
                                 <p className="text-lg">Coffee & Networking Break</p>
                             </Timeline.Item>
                             <Timeline.Item time="11:15 AM EST - 11:45 AM EST">
-                                <p className="text-lg">Volker Mische (Independent Researcher) - Content-addressing: chances for data distribution and verifiable data pipelines</p>
+                                <p className="text-lg">Rachel Opitz (Open Geospatial Consortium) - The OGC Open Science Persistent Demonstrator: Designing a distibuted platform for standards-based geospatial open science workflows</p>
                             </Timeline.Item>
                             <Timeline.Item time="11:45 AM EST - 12:00 PM EST">
                                 <p className="text-lg">Brynn O'Donnell (The Filecoin Foundation for the Decentralized Web) - Filecoin Foundation for the Decentralized Web: Preserving humanity's most important information resiliently</p>
