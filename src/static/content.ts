@@ -61,7 +61,7 @@ export const speakers = [
     {
         "name": "Volker Mische",
         "image": "Volker_Mische.png",
-        "affiliation": "Protocol Labs",
+        "affiliation": "Independent Researcher from Protocol Labs",
     },
     {
         "name": "Eric Olson",
@@ -78,11 +78,6 @@ export const speakers = [
         "image": "Armin_Mehrabian.jpg",
         "description": "Armin is a Data Scientist at NASA GES-DISC. One of the 12 NASA Data Activate Archive Centers (DAAC).",
         "affiliation": "NASA GES-DISC",
-    },
-    {
-        "name": "Leah Schwizer",
-        "image": "Leah_Schwizer.jpg",
-        "affiliation": "NASA",
     },
     {
         "name": "Rachel Opitz",
@@ -134,6 +129,11 @@ export const speakers = [
     {
         "name": "Zheng Liu",
         "image": "zheng_liu.jpeg",
+        "affiliation": "The University of Maryland (GEOG)"
+    },
+    {
+        "name": "Mengyu Liao",
+        "image": "Mengyu_Liao.jpeg",
         "affiliation": "The University of Maryland (GEOG)"
     },
     {
