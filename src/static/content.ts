@@ -127,6 +127,11 @@ export const speakers = [
         "affiliation": "NC State University",
     },
     {
+        "name": "John Jasen",
+        "image": "John_Jasen.jpg",
+        "affiliation": "UMD GEOG IT"
+    },
+    {
         "name": "Zheng Liu",
         "image": "zheng_liu.jpeg",
         "affiliation": "The University of Maryland (GEOG)"
