@@ -42,7 +42,7 @@ export default function Itinerary(): JSX.Element {
                                 <p className="text-lg">Juan Fernando Martinez (Columbia University) - Embracing Open Science Principles in Data Science: Opportunities, Challenges, and Beyond</p>
                             </Timeline.Item>
                             <Timeline.Item time="1:30 PM EST - 1:45 PM EST">
-                                <p className="text-lg">Eric Olson (Center for Open Science) - Title TBD</p>
+                                <p className="text-lg">Eric Olson (Center for Open Science) - Crossing the Chasm: Enabling Communities to Scale and Sustain Open Science</p>
                             </Timeline.Item>
                             <Timeline.Item time="1:45 PM EST - 2:15 PM EST">
                                 <p className="text-lg">Erik Van Winkle (DeSci Labs) - Experimentation on digitally native publication: dPIDs, research objects and attestations</p>
