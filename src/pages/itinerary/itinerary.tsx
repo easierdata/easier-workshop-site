@@ -54,7 +54,7 @@ export default function Itinerary(): JSX.Element {
                                 <p className="text-lg">Coffee & Networking Break</p>
                             </Timeline.Item>
                             <Timeline.Item time="3:15 PM EST - 3:30 PM EST">
-                                <p className="text-lg">Douglas Rao (NC State University) - Title TBD</p>
+                                <p className="text-lg">Douglas Rao (NC State University) - Community-driven Approach to Achieve AI-Ready Open Environmental Data</p>
                             </Timeline.Item>
                             <Timeline.Item time="3:30 PM EST - 4:00 PM EST">
                                 <p className="text-lg">Christopher Tucker (GeoRobotix) - OGC API: Connected Systems Standard and OpenSensorHub in Enabling a Decentralized Web of Systems</p>
