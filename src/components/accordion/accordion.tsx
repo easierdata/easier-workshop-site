@@ -93,7 +93,7 @@ export function SpecialQS(): JSX.Element {
                     Is there still capacity for add additional participants?<h2 className={styles.accordionTitle} style={{ transform: dropIcon2 }}><FontAwesomeIcon icon={faChevronUp} /></h2>
                 </button>
                 <div>
-                    <p className={styles.accordionAnswer} style={{ opacity: opacity2, marginTop: answerPosition2, fontSize: textSize2 }}>Yes! If you or someone you know is interested in attending, please <a href="https://forms.gle/yKoDczS7ZeUQpCZ6A" target='_blank' rel="noreferrer">fill out this form</a> or reach out to <a href='mailto:toshan@umd.edu?subject=Open Geospatial Science Workshop Interest'>toshan@umd.edu</a></p>
+                    <p className={styles.accordionAnswer} style={{ opacity: opacity2, marginTop: answerPosition2, fontSize: textSize2 }}>The event has now ended!</p>
                 </div>
             </div>
         </div>

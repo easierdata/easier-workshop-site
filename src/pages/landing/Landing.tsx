@@ -15,12 +15,9 @@ export default function Landing(): JSX.Element {
 
                 <div className="sm:visible sm:grid sm:grid-rows-2 md:invisible md:h-0 flex flex-col items-center">
                     <button
-                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
-                        onClick={() => {
-                            window.open('https://forms.gle/NimofD4pWaiH9WNt8', '_blank');
-                        }}
+                        className="disabled cursor-default mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-gray-300 text-white"
                     >
-                        Express Interest
+                        Event Ended
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
@@ -31,12 +28,9 @@ export default function Landing(): JSX.Element {
 
                 <div className="invisible sm:invisible sm:h-0 md:visible">
                     <button
-                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
-                        onClick={() => {
-                            window.open('https://forms.gle/NimofD4pWaiH9WNt8', '_blank');
-                        }}
+                        className="disabled cursor-default mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-gray-300 text-white"
                     >
-                        Express Interest
+                        Event Ended
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
