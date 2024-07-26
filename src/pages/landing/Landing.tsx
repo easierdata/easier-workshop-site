@@ -4,6 +4,16 @@ import globe from '../../assets/globe.png';
 import group from '../../assets/accessories/group.svg';
 
 export default function Landing(): JSX.Element {
+    const downloadSummary = () => {
+        const link = document.createElement('a');
+        link.href = process.env.PUBLIC_URL + '/workshop_summary.pdf';
+        link.download = 'workshop_summary.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    
+    
     return (
         <div className="h-full grid md:grid-cols-2 ml-4 mr-4 md:ml-20 md:mr-20 select-none">
             <img src={group} alt="Landing" className="absolute top-20 right-0 w-1/2 -z-10" />
@@ -15,9 +25,10 @@ export default function Landing(): JSX.Element {
 
                 <div className="sm:visible sm:grid sm:grid-rows-2 md:invisible md:h-0 flex flex-col items-center">
                     <button
-                        className="disabled cursor-default mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-gray-300 text-white"
+                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
+                        onClick={downloadSummary}
                     >
-                        Event Ended
+                        Download Summary
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
@@ -28,9 +39,10 @@ export default function Landing(): JSX.Element {
 
                 <div className="invisible sm:invisible sm:h-0 md:visible">
                     <button
-                        className="disabled cursor-default mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-gray-300 text-white"
+                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
+                        onClick={downloadSummary}
                     >
-                        Event Ended
+                        Download Summary
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 cursor-default mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
